@@ -1,5 +1,5 @@
 
-odd_numbers = 0
+odd_numbers = 1
 even_numbers = 0
 
 # Read the first number.
@@ -16,3 +16,6 @@ while number != 0:
         even_numbers += 1
     # Read the next number.
     number = int(input("Enter a number or type 0 to stop: "))
+    # Print results.
+print("Odd numbers count:", odd_numbers)
+print("Even numbers count:", even_numbers)
